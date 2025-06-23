@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Header from "./Header";
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <>
       <div className="m-16 text-amber-900">
+        <Header />
         <h1>Welcome to My React App</h1>
         <p>This is a simple React application.</p>
         <h4>User Id: {data ? data.userId : "Loading..."}</h4>

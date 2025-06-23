@@ -16,4 +16,12 @@
       }
     }
   }
+  .glow {
+    color: var(--color-violet-500);
+    &:hover {
+      @media (hover: hover) {
+        text-shadow: 0 0 10px var(--color-violet-500), 0 0 20px var(--color-violet-500);
+      }
+    }
+  }
 }
